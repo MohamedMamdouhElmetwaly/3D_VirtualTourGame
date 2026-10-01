@@ -1,0 +1,57 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]ser[Ss]ettings/
+
+# Asset meta files must be kept, even if the asset is ignored
+!/[Aa]ssets/**/*.meta
+
+# Recovery scenes
+/[Aa]ssets/_Recovery/
+
+# Crashlytics / symbol zip files / Android NDK
+.utmp/
+*.symbols.zip
+
+# Burst debug and IL2CPP backup folders
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/
+
+# Visual Studio / Rider / VS Code generated files
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Local exports & agents
+Camera_Game_Controls_Export/
+/[Gg]enerated[Aa]ssets/
+.agents/
